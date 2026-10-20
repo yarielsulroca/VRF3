@@ -1,0 +1,6 @@
+1- Construir una app de escritorio para Windows en Python que permita:
+1.1- Desde una interfaz tipo app, instalar por primera vez todas las librerías, DLLs y dependencias que la app necesite en Windows.
+2- Esta app no es más que una interfaz local de escritorio que carga una tabla dinámica con todo lo que importa del documento Excel seleccionado, con una estructura parecida a la del actual:
+  "LIBRO COMPRAS SEPTIEMBRE-26.xlsx", en el directorio ./Docs
+3- Al importar todos los datos, mostrando una barra de progreso, se construye una tabla dinámica con filtrado por columna y botón de búsqueda. El objetivo principal es mostrar unas tarjetas (cards) sobre la tabla con los valores de los impuestos totales, entre ellos el IVA, y el total de la sumatoria de todos los importes totales (analizar el Excel para tener esto en cuenta). Además, se puede filtrar por detalle, fecha y tipo de factura (Factura C, Factura B, etc.).
+4- Botones de ventana para minimizar y salir, y columnas de las tablas autoajustables, con estilos CSS atractivos, para mostrar una interfaz moderna y limpia que brinde toda la información posible sobre los totales de estas tablas, pero con el objetivo fundamental de visualizar el IVA.
